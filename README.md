@@ -61,7 +61,7 @@ b \ge r_{1}, b \ge r_{2}, .., b \ge r_{k}
 \end{align*}
 $$
 
-where $r_i$ is the AC value that would have resulted in the $i$-th successful attack. Keep in mind, there is a possability that you'll never know an the AC during combat.
+where $r_i$ is the AC value that would have resulted in the $i$-th successful attack. Keep in mind, there is a possability that you'll never know the AC during combat.
 
 If you are able to identify the enemie's AC, or are willing to guess the AC and find the chance of hitting, you can use the following function:
 
