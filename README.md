@@ -89,7 +89,7 @@ $$
 
 ## Chance Table
 
-If we have a range of the Difficulty between 15 and 18 as mentioned earlier we can represent it in this matrix, where the rows are the roll and the columns are the bonuses to the roll.
+If we have a range of the Difficulty between 15 and 18 as mentioned earlier we can represent it in this matrix, where the rows are the possible AC and the columns are the bonuses to the roll.
 
 |   |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  10 |
 |---|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
