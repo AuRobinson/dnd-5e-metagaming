@@ -23,7 +23,9 @@ There are 2 notable difficulty types in D&D 5th edition. To simplify you can thi
 > 
 > _D&D Player's Handbook; introduction p. 7_
 
-Within the rules of 5e, players are told the DC of a spell or save, where in contrast, an enemy or target's AC is not explicitly mentioned. This presentes us with a situation where we only need to identify the chance of success in defence of something, but we need to identify the target's AC to identify that chance of hitting.
+Within the rules of 5e, players tell or are told the DC of a spell or save, where in contrast, an enemy or target's AC is not explicitly mentioned. This presentes us with a situation where we only need to identify the chance of success in defence of something, but we need to identify the target's AC before we are able to find the chance of hitting something very hard.
+
+### Attacking (AC)
 
 
 
