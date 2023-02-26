@@ -29,15 +29,58 @@ _Important note: if you are in a game where crit-failure is a thing the math cha
 
 ### Attacking (AC)
 
-Finding the Armor Classin 5e is a simple process of noting when you succeed and fail to hit. 
+Finding the Armor Classin 5e is a simple process of noting when you succeed and fail to hit. So keep note of the successes and failures and you can narrow down the AC range.
 
+#### Example
 
+_For the sake of simplicity we'll assume there's no bonus to attack_
+
+| Roll | Hit |
+| -: | :-: |
+| 5 | FALSE |
+| 18 | TRUE |
+| 10 | FALSE |
+| 11 | FALSE |
+| 17 | TRUE |
+| 15 | FALSE |
+
+From these 6 attack rolls we were able to hit twice. So we can confidently assume that the AC of what we're hitting is between 15 and 18 (given 17 and 18 both hit).
+
+**Warning: Math**
+
+We can denote the _minimum_ possible AC value as $a$ and the _maximum_ possible AC value as $b$.
+
+$$a < R \le b$$
+
+Where $R$ is the set of possible AC values that could result in a successful outcome. And we can further express the system of inequalities:
+
+$$
+\begin{align*}
+a < r_{1}, a < r_{2}, .., a < r_{k} \\
+b \ge r_{1}, b \ge r_{2}, .., b \ge r_{k}
+\end{align*}
+$$
+
+where $r_i$ is the AC value that would have resulted in the $i$-th successful attack.
 
 **There is a possability that you'll never know an the AC.**
 
+If you are able to identify the enemie's AC, or are willing to guess the AC and find the chance of hitting, you can use the following function:
+
+$$
+f(x, y, z) = 1 - \frac{x - y - 1}{z}
+$$
+
+_If your game consideres ones as a failure regardless of applicable bonuses you'd use the following_
+
+$$
+f(x, y, z) = 1 - \frac{x - y}{z}
+$$
 
 
+<!--
 ## Code
 
 ![R code]()
 
+-->
