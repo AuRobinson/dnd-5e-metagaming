@@ -77,7 +77,7 @@ $$
 
 ### Defending (DC)
 
-Defending is similar to attacking, but you know what the DC save is as a GM/Player, so your chances is simply. 
+Defending is similar to attacking, but you know what the DC save is as a GM/Player, so your chances is simply the function presented earlier $f(x, y, z)$. 
 
 ### Conditions
 
