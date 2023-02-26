@@ -9,7 +9,7 @@ Metagaming refers to a player utilizing knowledge outside of or not available to
 
 It depends. If you're metagaming purely to "win", then I'd lean into a **no**. If you're using it to better understand the world and apply the difficulty into a narrative for your characters then I'd say **yes**.
 
-## Mothod and Conditions
+## Method and Conditions
 
 The method in determining the enemie's Armor Class (AC) and your general hit-chance is framed around Dungeons & Dragons 5th edition (5e), but can easily be tweaked to any TTRPG with a dice system. 
 
