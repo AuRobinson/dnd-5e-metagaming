@@ -66,25 +66,26 @@ where $r_i$ is the AC value that would have resulted in the $i$-th successful at
 If you are able to identify the enemie's AC, or are willing to guess the AC and find the chance of hitting, you can use the following function:
 
 $$
-f(\text{Difficulty}, \text{Bonus}, \text{Dice}) = 1 - \frac{\text{Difficulty} - \text{Bonus} - 1}{\text{Dice}}
+1 - \frac{\text{Difficulty} - \text{Bonus} - 1}{\text{Dice}} \\
 $$
 
+If you want to plug the equation in a spreadsheet or function (python, R, julia, etc.)
 
 $$
 f(x, y, z) = 1 - \frac{x - y - 1}{z}
 $$
 
-_If your game consideres ones as a failure regardless of applicable bonuses you'd use the following_
+### Defending (DC)
+
+Defending is similar to attacking, but you know what the DC save is as a GM/Player, so your chances is simply. 
+
+### Conditions
+
+If your game consideres ones as a failure regardless of applicable bonuses you'd use the following:
 
 $$
 f(x, y, z) = 1 - \frac{x - y}{z}
 $$
-
-### Defending (DC)
-
-Defending is similar to attacking, but you know what the DC save is as a GM/Player.
-
-So finding the chance
 
 <!--
 ## Code
