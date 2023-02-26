@@ -25,15 +25,15 @@ There are 2 notable difficulty types in D&D 5th edition. To simplify you can thi
 
 Within the rules of 5e, players tell or are told the DC of a spell or save, where in contrast, an enemy or target's AC is not explicitly mentioned. This presentes us with a situation where we only need to identify the chance of success in defence of something, but we need to identify the target's AC before we are able to find the chance of hitting something very hard.
 
+_Important note: if you are in a game where crit-failure is a thing the math changes a little bit._
+
 ### Attacking (AC)
 
+Finding the Armor Classin 5e is a simple process of noting when you succeed and fail to hit. 
 
 
 
-
-Finding the Armor Class or Difficulty Class (AC/DC) <!-- it's a funny joke right? --> in 5e is a simple process of noting when you succeed and fail to hit.
-
-If you're able to hit
+**There is a possability that you'll never know an the AC.**
 
 
 
