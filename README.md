@@ -31,7 +31,7 @@ _Important note: if you are in a game where crit-failure is a thing the math cha
 
 Finding the Armor Classin 5e is a simple process of noting when you succeed and fail to hit. So keep note of the successes and failures and you can narrow down the AC range.
 
-#### Example
+#### Finding AC
 
 _For the sake of simplicity we'll assume there's no bonus to attack_
 
@@ -66,6 +66,11 @@ where $r_i$ is the AC value that would have resulted in the $i$-th successful at
 If you are able to identify the enemie's AC, or are willing to guess the AC and find the chance of hitting, you can use the following function:
 
 $$
+f(\text{Difficulty}, \text{Bonus}, \text{Dice}) = 1 - \frac{\text{Difficulty} - \text{Bonus} - 1}{\text{Dice}}
+$$
+
+
+$$
 f(x, y, z) = 1 - \frac{x - y - 1}{z}
 $$
 
@@ -75,6 +80,11 @@ $$
 f(x, y, z) = 1 - \frac{x - y}{z}
 $$
 
+### Defending (DC)
+
+Defending is similar to attacking, but you know what the DC save is as a GM/Player.
+
+So finding the chance
 
 <!--
 ## Code
