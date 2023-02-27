@@ -48,22 +48,22 @@ From these 6 attack rolls we were able to hit twice. So we can confidently assum
 
 **Warning: Math**
 
-We can denote the _minimum_ possible AC value as $a$ and the _maximum_ possible AC value as $b$.
+We can denote the range of possible values by noting the maximum roll that did not hit as $a$ and the minimum roll that did hit as $b$. This can be expressed as:
 
-$$a < R \le b$$
+$$\max(a) < R \le \min(b)$$
 
-Where $R$ is the set of possible AC values that could result in a successful outcome. And we can further express the system of inequalities:
+where $R$ is the set of possible AC values that could result in a successful outcome. We can further express the system of inequalities as:
 
 $$
 \begin{align*}
-a < r_{1}, a < r_{2}, .., a < r_{k} \\
+r_{1} > a, r_{2} > a, .., r_{k} > a \\
 b \ge r_{1}, b \ge r_{2}, .., b \ge r_{k}
 \end{align*}
 $$
 
-where $r_i$ is the AC value that would have resulted in the $i$-th successful attack. Keep in mind, there is a possability that you'll never know the AC during combat.
+where $r_i$ is the AC value that would have resulted in the $i$-th successful attack. Keep in mind that there is a possibility that you may never know the AC during combat.
 
-If you are able to identify the enemie's AC, or are willing to guess the AC and find the chance of hitting, you can use the following function:
+If you are able to identify the enemy's AC or are willing to guess the AC and find the chance of hitting, you can use the following function:
 
 $$
 1 - \frac{\text{Difficulty} - \text{Bonus} - 1}{\text{Dice}} \\
