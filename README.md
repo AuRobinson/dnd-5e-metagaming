@@ -72,7 +72,13 @@ $$
 If you want to plug the equation in a spreadsheet or function (python, R, julia, etc.)
 
 $$
-f(x, y, z) = 1 - \frac{x - y - 1}{z}
+\begin{align*}
+f(x, y, z) &= 1 - \frac{x - y - 1}{z} \\
+\hline \\
+f(15, 6, 20) &= 1 - \frac{15 - 6 - 1}{20} \\
+&= 1 - \frac{8}{20} \\
+&= \frac{3}{5} \rightarrow (3:2)
+\end{align*}
 $$
 
 ### Defending (DC)
